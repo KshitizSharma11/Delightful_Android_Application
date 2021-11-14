@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pasta"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/pasta"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textAlignment="center"
+        android:text="Pasta/Lasagna" />
+
+    <RadioGroup
+        android:id="@+id/pasta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:text="White Sauce Pasta              120" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:text="Mixed Sauce Pasta              120" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:text="Penne Pink Sauce Pasta          140" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:text="Mushroom Alfredo                140" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:text="Spaghetti Strand Pasta          120" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White Cheese Lasagna            140" />
+
+        <RadioButton
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:id="@+id/radioButton13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veg Lasagna                     120" />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lasagna Rolls                   140"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="16dp">
+
+
+
+            <Button
+                android:id="@+id/resetchin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:layout_marginRight="5dp"
+                android:text="Reset" />
+
+            <Button
+                android:id="@+id/submitchin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:layout_marginLeft="5dp"
+                android:text="Submit" />
+        </LinearLayout>
+    </RadioGroup>
+</LinearLayout>

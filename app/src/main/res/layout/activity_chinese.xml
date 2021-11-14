@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chinese"
+    android:orientation="vertical"
+    android:background="@drawable/chin"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textFontWeight="700"
+        android:textColor="@android:color/holo_red_light"
+        android:textAlignment="center"
+        android:text="Chinese" />
+
+    <RadioGroup
+        android:id="@+id/chin"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spring Roll\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t150" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Honey Chilli Potato\t\t\t\t\t\t\t120" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Veg Manchurian\t\t\t\t\t\t\t\t\t\t120" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Noodles\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t80" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chilli Garlic Noodles\t\t\t\t\t100" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Momo Steam\t\t\t\t\t\t\t\t\t\t\t\t\t\t80" />
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Momo Fried\t\t\t\t\t\t\t\t\t\t\t\t\t\t100" />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Momo Chilli\t\t\t\t\t\t\t\t\t\t\t\t\t\t150" />
+
+        <RadioButton
+            android:id="@+id/radioButton15"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chilli Cheese\t\t\t\t\t\t\t\t\t\t\t\t\t150" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schezwan Fried Rice\t\t\t\t\t120" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="16dp">
+
+
+
+            <Button
+                android:id="@+id/resetchin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:layout_marginRight="5dp"
+                android:text="Reset" />
+
+            <Button
+                android:id="@+id/submitchin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:layout_marginLeft="5dp"
+                android:text="Submit" />
+        </LinearLayout>
+    </RadioGroup>
+</LinearLayout>
